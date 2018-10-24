@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Projeto_pizzaria.Dominio.Features.Adicionais.Adicional" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAA=</HashCode>
+      <FileName>Features\Adicionais\Adicional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projeto_pizzaria.Dominio.Features.Produtos.Produto" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAABAAQEAEAAAA=</HashCode>
+      <FileName>Features\Produtos\Produto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projeto_pizzaria.Dominio.Features.Pedidos.Pedido" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <AssociationLine Name="ItensPedido" Type="Projeto_pizzaria.Dominio.ItemPedido" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="3.219" />
+        <Point X="2.24" Y="3.219" />
+        <Point X="2.24" Y="4.175" />
+        <Point X="3.922" Y="4.175" />
+        <Point X="3.922" Y="4.365" />
+        <Point X="4.75" Y="4.365" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.704" Y="0.247" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="FormaPagamento" Type="Projeto_pizzaria.Dominio.FormaPagamentoEnum" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.625" Y="3.691" />
+        <Point X="1.625" Y="4.365" />
+        <Point X="2.344" Y="4.365" />
+        <Point X="2.344" Y="4.79" />
+        <Point X="3" Y="4.79" />
+        <Point X="3" Y="5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.44" Y="0.225" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAIAEAACAAAAAkAgAEQAAAAAAQAAAAQA=</HashCode>
+      <FileName>Features\Pedidos\Pedido.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StatusPedido" />
+      <Property Name="FormaPagamento" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ItensPedido" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Projeto_pizzaria.Dominio.Features.Enderecos.Endereco" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAAQAAAIAAAAAAAAAAAAAAQAAAAAAAAABAAg=</HashCode>
+      <FileName>Features\Enderecos\Endereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projeto_pizzaria.Dominio.Features.Clientes.Cliente" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <AssociationLine Name="Pedidos" Type="Projeto_pizzaria.Dominio.Features.Pedidos.Pedido" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="2" />
+        <Point X="2.229" Y="2" />
+        <Point X="2.229" Y="2.625" />
+        <Point X="1.312" Y="2.625" />
+        <Point X="1.312" Y="3" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.089" Y="0.123" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="TipoCliente" Type="Projeto_pizzaria.Dominio.TipoClienteEnum" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="1.75" />
+        <Point X="2.875" Y="1.75" />
+        <Point X="2.875" Y="1.562" />
+        <Point X="2" Y="1.562" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.047" Y="0.07" Height="0.182" Width="1.454" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAQAACAAAAAAAEAA=</HashCode>
+      <FileName>Features\Clientes\Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TipoCliente" />
+      <Property Name="Endereco" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Pedidos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Projeto_pizzaria.Dominio.ItemPedido" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAgAAAAAAAAAAAAAAAgQAAAAAQAAAAAAE=</HashCode>
+      <FileName>Features\ItensPedido\ItemPedido.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Produto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Projeto_pizzaria.Dominio.Features.Pizzas.Pizza" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Features\Pizzas\Pizza.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TamanhoPizza" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Projeto_pizzaria.Dominio.Features.Calzones.Calzone" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Features\Calzones\Calzone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projeto_pizzaria.Dominio.Features.Bebidas.Bebida" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Features\Bebidas\Bebida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Projeto_pizzaria.Dominio.StatusPedidoEnum" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAgAAAAABEAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Features\Pedidos\StatusPedidoEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Projeto_pizzaria.Dominio.FormaPagamentoEnum" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Features\Pedidos\FormaPagamentoEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Projeto_pizzaria.Dominio.TipoClienteEnum" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Features\Clientes\TipoClienteEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Projeto_pizzaria.Dominio.TamanhoPizzaEnum" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Features\Pizzas\TamanhoPizzaEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

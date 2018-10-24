@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.Dominio", "BancoTabajara.Dominio\BancoTabajara.Dominio.csproj", "{2D89BE9F-DB55-4B4E-B1B9-3C3871316D77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Sistemas Distribuidos", "1. Sistemas Distribuidos", "{6CF37EA9-794C-4A84-ADE2-E1A6176D5B83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Aplicacacao", "2. Aplicacacao", "{22E1DF8D-1942-4DEB-83F7-D09867E17249}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Dominio", "3. Dominio", "{AD3ECCE1-2416-4FB7-9203-CB376FA4F80F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infraestrutura", "4. Infraestrutura", "{6B16D265-79F2-48DF-AFC9-8AFEA15E1788}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{DB6E3A8C-6631-4975-8734-188041A612D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.Infra.ORM", "BancoTabajara.Infra.ORM\BancoTabajara.Infra.ORM.csproj", "{72287436-D536-4F4F-9AC0-56745D0D49FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.Aplicacao.Tests", "BancoTabajara.Aplicacao.Tests\BancoTabajara.Aplicacao.Tests.csproj", "{5E04F8EE-CC8C-4A87-8728-25B5B047D4EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.Common.Tests", "BancoTabajara.Common.Tests\BancoTabajara.Common.Tests.csproj", "{36D70F90-04C9-4DF1-A4D8-94A45FC7CF21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.Dominio.Tests", "BancoTabajara.Dominio.Tests\BancoTabajara.Dominio.Tests.csproj", "{534F3364-4925-477A-99E1-15302DAD17D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.Infra.ORM.Tests", "BancoTabajara.Infra.ORM.Tests\BancoTabajara.Infra.ORM.Tests.csproj", "{32506299-1523-4B0F-AADF-75B62571E81F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.Aplicacao", "BancoTabajara.Aplicacao\BancoTabajara.Aplicacao.csproj", "{BA16C9CB-6B4A-4297-A156-CE635A291D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.WebApi", "BancoTabajara.WebApi\BancoTabajara.WebApi.csproj", "{436CDA0B-1892-46B6-90D1-CE242631F45C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.Infra", "BancoTabajara.Infra\BancoTabajara.Infra.csproj", "{F73BFE87-6930-4674-98FA-20EC2CC91714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoTabajara.Controller.Tests", "BancoTabajara.Controller.Tests\BancoTabajara.Controller.Tests.csproj", "{2C506018-DB51-4976-B381-0C5E8DC6B27B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D89BE9F-DB55-4B4E-B1B9-3C3871316D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D89BE9F-DB55-4B4E-B1B9-3C3871316D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D89BE9F-DB55-4B4E-B1B9-3C3871316D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D89BE9F-DB55-4B4E-B1B9-3C3871316D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72287436-D536-4F4F-9AC0-56745D0D49FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72287436-D536-4F4F-9AC0-56745D0D49FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72287436-D536-4F4F-9AC0-56745D0D49FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72287436-D536-4F4F-9AC0-56745D0D49FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E04F8EE-CC8C-4A87-8728-25B5B047D4EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E04F8EE-CC8C-4A87-8728-25B5B047D4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E04F8EE-CC8C-4A87-8728-25B5B047D4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E04F8EE-CC8C-4A87-8728-25B5B047D4EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D70F90-04C9-4DF1-A4D8-94A45FC7CF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D70F90-04C9-4DF1-A4D8-94A45FC7CF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D70F90-04C9-4DF1-A4D8-94A45FC7CF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D70F90-04C9-4DF1-A4D8-94A45FC7CF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534F3364-4925-477A-99E1-15302DAD17D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534F3364-4925-477A-99E1-15302DAD17D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534F3364-4925-477A-99E1-15302DAD17D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534F3364-4925-477A-99E1-15302DAD17D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32506299-1523-4B0F-AADF-75B62571E81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32506299-1523-4B0F-AADF-75B62571E81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32506299-1523-4B0F-AADF-75B62571E81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32506299-1523-4B0F-AADF-75B62571E81F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA16C9CB-6B4A-4297-A156-CE635A291D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA16C9CB-6B4A-4297-A156-CE635A291D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA16C9CB-6B4A-4297-A156-CE635A291D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA16C9CB-6B4A-4297-A156-CE635A291D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436CDA0B-1892-46B6-90D1-CE242631F45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436CDA0B-1892-46B6-90D1-CE242631F45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436CDA0B-1892-46B6-90D1-CE242631F45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436CDA0B-1892-46B6-90D1-CE242631F45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73BFE87-6930-4674-98FA-20EC2CC91714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73BFE87-6930-4674-98FA-20EC2CC91714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73BFE87-6930-4674-98FA-20EC2CC91714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73BFE87-6930-4674-98FA-20EC2CC91714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C506018-DB51-4976-B381-0C5E8DC6B27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C506018-DB51-4976-B381-0C5E8DC6B27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C506018-DB51-4976-B381-0C5E8DC6B27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C506018-DB51-4976-B381-0C5E8DC6B27B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D89BE9F-DB55-4B4E-B1B9-3C3871316D77} = {AD3ECCE1-2416-4FB7-9203-CB376FA4F80F}
+		{72287436-D536-4F4F-9AC0-56745D0D49FC} = {6B16D265-79F2-48DF-AFC9-8AFEA15E1788}
+		{5E04F8EE-CC8C-4A87-8728-25B5B047D4EC} = {DB6E3A8C-6631-4975-8734-188041A612D8}
+		{36D70F90-04C9-4DF1-A4D8-94A45FC7CF21} = {DB6E3A8C-6631-4975-8734-188041A612D8}
+		{534F3364-4925-477A-99E1-15302DAD17D4} = {DB6E3A8C-6631-4975-8734-188041A612D8}
+		{32506299-1523-4B0F-AADF-75B62571E81F} = {DB6E3A8C-6631-4975-8734-188041A612D8}
+		{BA16C9CB-6B4A-4297-A156-CE635A291D06} = {22E1DF8D-1942-4DEB-83F7-D09867E17249}
+		{436CDA0B-1892-46B6-90D1-CE242631F45C} = {6CF37EA9-794C-4A84-ADE2-E1A6176D5B83}
+		{F73BFE87-6930-4674-98FA-20EC2CC91714} = {6B16D265-79F2-48DF-AFC9-8AFEA15E1788}
+		{2C506018-DB51-4976-B381-0C5E8DC6B27B} = {DB6E3A8C-6631-4975-8734-188041A612D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {316EEF4E-9470-476C-85CB-60D0AF147C41}
+	EndGlobalSection
+EndGlobal

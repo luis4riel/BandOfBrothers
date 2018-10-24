@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="309" visitedSequencePoints="301" numBranchPoints="148" visitedBranchPoints="140" sequenceCoverage="97.41" branchCoverage="94.59" maxCyclomaticComplexity="17" minCyclomaticComplexity="0" maxCrapScore="17" minCrapScore="0" visitedClasses="12" numClasses="12" visitedMethods="36" numMethods="38" />
+  <Modules>
+    <Module hash="E8-45-38-CC-0B-CB-18-E1-93-20-6D-3E-89-EB-99-CF-0B-2D-76-1C">
+      <Summary numSequencePoints="174" visitedSequencePoints="174" numBranchPoints="103" visitedBranchPoints="103" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="17" minCyclomaticComplexity="1" maxCrapScore="17" minCrapScore="2" visitedClasses="10" numClasses="10" visitedMethods="27" numMethods="27" />
+      <ModulePath>C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio.Testes\bin\Debug\NFe.Dominio.dll</ModulePath>
+      <ModuleTime>2018-06-13T17:21:52.3979278Z</ModuleTime>
+      <ModuleName>NFe.Dominio</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio\Features\Valor\ValorNota.cs" />
+        <File uid="2" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio\Features\Valor\ValorProduto.cs" />
+        <File uid="3" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio\Features\Valor\Aliquotas\Aliquota.cs" />
+        <File uid="4" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio\Features\Transportadores\Transportador.cs" />
+        <File uid="5" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio\Features\Produtos\Produto.cs" />
+        <File uid="6" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio\Features\Notas Fiscais\NotaFiscal.cs" />
+        <File uid="9" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio\Features\Enderecos\Endereco.cs" />
+        <File uid="10" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio\Features\Emitentes\Emitente.cs" />
+        <File uid="11" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio\Features\Destinatarios\Destinatario.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="19" visitedSequencePoints="19" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>NFe.Dominio.Features.Valor.ValorNota</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Decimal NFe.Dominio.Features.Valor.ValorNota::get_Frete()</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorNota::set_Frete(System.Decimal)</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Decimal NFe.Dominio.Features.Valor.ValorNota::get_TotalProdutos()</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorNota::set_TotalProdutos(System.Decimal)</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Decimal NFe.Dominio.Features.Valor.ValorNota::get_TotalNota()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="16" sc="40" el="16" ec="41" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="16" sc="42" el="16" ec="60" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="10" sl="16" sc="61" el="16" ec="62" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="16" sc="40" el="16" ec="41" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorNota::set_TotalNota(System.Decimal)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="4" ordinal="0" offset="0" sl="16" sc="67" el="16" ec="68" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="5" ordinal="1" offset="1" sl="16" sc="69" el="16" ec="88" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="6" ordinal="2" offset="8" sl="16" sc="89" el="16" ec="90" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="4" ordinal="0" offset="0" sl="16" sc="67" el="16" ec="68" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663304</MetadataToken>
+              <Name>NFe.Dominio.Features.Valor.Aliquotas.Aliquota NFe.Dominio.Features.Valor.ValorNota::get_Aliquota()</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorNota::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="25" uspid="7" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="27" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="25" uspid="8" ordinal="1" offset="7" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="25" uspid="9" ordinal="2" offset="8" sl="10" sc="13" el="10" ec="39" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="25" uspid="10" ordinal="3" offset="19" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="25" uspid="7" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="27" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorNota::CalcularValorNota()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="11" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="12" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="61" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" uspid="13" ordinal="2" offset="46" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="11" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorNota::CalcularICMS()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="14" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="15" ordinal="1" offset="1" sl="26" sc="13" el="26" ec="50" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="16" ordinal="2" offset="30" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="14" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorNota::CalcularIpi()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="17" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="18" ordinal="1" offset="1" sl="31" sc="13" el="31" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="19" ordinal="2" offset="30" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="17" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>NFe.Dominio.Features.Valor.ValorProduto</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Decimal NFe.Dominio.Features.Valor.ValorProduto::get_Total()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorProduto::set_Total(System.Decimal)</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Decimal NFe.Dominio.Features.Valor.ValorProduto::get_Unitario()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorProduto::set_Unitario(System.Decimal)</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663313</MetadataToken>
+              <Name>NFe.Dominio.Features.Valor.Aliquotas.Aliquota NFe.Dominio.Features.Valor.ValorProduto::get_Aliquota()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorProduto::.ctor()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="64" uspid="20" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="30" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="64" uspid="21" ordinal="1" offset="7" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="64" uspid="22" ordinal="2" offset="8" sl="10" sc="13" el="10" ec="39" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="64" uspid="23" ordinal="3" offset="19" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="64" uspid="20" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="30" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorProduto::CalcularICMS()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="24" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="25" ordinal="1" offset="1" sl="19" sc="13" el="19" ec="42" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="26" ordinal="2" offset="30" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="24" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.ValorProduto::CalcularIpi()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="27" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="28" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="40" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="29" ordinal="2" offset="30" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="27" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>NFe.Dominio.Features.Valor.Aliquotas.Aliquota</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Decimal NFe.Dominio.Features.Valor.Aliquotas.Aliquota::get_ICMS()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="30" ordinal="0" offset="0" sl="5" sc="35" el="5" ec="36" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="7" uspid="31" ordinal="1" offset="1" sl="5" sc="37" el="5" ec="50" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="7" uspid="32" ordinal="2" offset="14" sl="5" sc="51" el="5" ec="52" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="30" ordinal="0" offset="0" sl="5" sc="35" el="5" ec="36" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Decimal NFe.Dominio.Features.Valor.Aliquotas.Aliquota::get_Ipi()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="33" ordinal="0" offset="0" sl="6" sc="34" el="6" ec="35" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="7" uspid="34" ordinal="1" offset="1" sl="6" sc="36" el="6" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="7" uspid="35" ordinal="2" offset="14" sl="6" sc="49" el="6" ec="50" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="33" ordinal="0" offset="0" sl="6" sc="34" el="6" ec="35" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Valor.Aliquotas.Aliquota::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="36" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="15" visitedBranchPoints="15" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="12" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>NFe.Dominio.Features.Transportadores.Transportador</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663319</MetadataToken>
+              <Name>NFe.Dominio.Features.Transportadores.Frete NFe.Dominio.Features.Transportadores.Transportador::get_ResponsabilidadeFrete()</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Transportadores.Transportador::set_ResponsabilidadeFrete(NFe.Dominio.Features.Transportadores.Frete)</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="12" nPathComplexity="128" sequenceCoverage="100" branchCoverage="100" crapScore="12" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="15" visitedBranchPoints="15" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="12" minCyclomaticComplexity="12" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Transportadores.Transportador::Validar()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="18" uspid="37" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="38" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="81" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="1" uspid="39" ordinal="2" offset="32" sl="18" sc="17" el="18" ec="66" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="17" uspid="40" ordinal="3" offset="38" sl="19" sc="13" el="19" ec="57" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="1" uspid="41" ordinal="4" offset="53" sl="20" sc="17" el="20" ec="74" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="16" uspid="42" ordinal="5" offset="59" sl="21" sc="13" el="21" ec="85" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="1" uspid="43" ordinal="6" offset="100" sl="22" sc="17" el="22" ec="64" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="15" uspid="44" ordinal="7" offset="106" sl="23" sc="13" el="23" ec="86" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="9" uspid="45" ordinal="8" offset="147" sl="24" sc="17" el="24" ec="43" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="3" uspid="46" ordinal="9" offset="167" sl="25" sc="21" el="25" ec="54" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="12" uspid="47" ordinal="10" offset="173" sl="26" sc="13" el="26" ec="86" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="6" uspid="48" ordinal="11" offset="216" sl="27" sc="17" el="27" ec="44" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="1" uspid="49" ordinal="12" offset="236" sl="28" sc="21" el="28" ec="55" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="11" uspid="50" ordinal="13" offset="242" sl="30" sc="13" el="30" ec="32" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="11" uspid="51" ordinal="14" offset="254" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="54" ordinal="2" offset="30" sl="17" path="0" offsetend="32" fileid="4" />
+                <BranchPoint vc="17" uspid="55" ordinal="3" offset="30" sl="17" path="1" offsetend="38" fileid="4" />
+                <BranchPoint vc="1" uspid="56" ordinal="4" offset="51" sl="19" path="0" offsetend="53" fileid="4" />
+                <BranchPoint vc="16" uspid="57" ordinal="5" offset="51" sl="19" path="1" offsetend="59" fileid="4" />
+                <BranchPoint vc="1" uspid="60" ordinal="8" offset="98" sl="21" path="0" offsetend="100" fileid="4" />
+                <BranchPoint vc="15" uspid="61" ordinal="9" offset="98" sl="21" path="1" offsetend="106" fileid="4" />
+                <BranchPoint vc="9" uspid="64" ordinal="12" offset="145" sl="23" path="0" offsetend="147" fileid="4" />
+                <BranchPoint vc="6" uspid="65" ordinal="13" offset="145" sl="23" path="1" offsetend="173" fileid="4" />
+                <BranchPoint vc="3" uspid="66" ordinal="14" offset="165" sl="24" path="0" offsetend="167" fileid="4" />
+                <BranchPoint vc="6" uspid="67" ordinal="15" offset="165" sl="24" path="1" offsetend="173" fileid="4" />
+                <BranchPoint vc="6" uspid="70" ordinal="18" offset="214" sl="26" path="0" offsetend="216" fileid="4" />
+                <BranchPoint vc="6" uspid="71" ordinal="19" offset="214" sl="26" path="1" offsetend="242" fileid="4" />
+                <BranchPoint vc="1" uspid="72" ordinal="20" offset="234" sl="27" path="0" offsetend="236" fileid="4" />
+                <BranchPoint vc="5" uspid="73" ordinal="21" offset="234" sl="27" path="1" offsetend="242" fileid="4" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="18" uspid="37" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Transportadores.Transportador::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="74" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="11" visitedBranchPoints="11" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="5" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>NFe.Dominio.Features.Produtos.Produto</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Int32 NFe.Dominio.Features.Produtos.Produto::get_CodigoProduto()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Produtos.Produto::set_CodigoProduto(System.Int32)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Produtos.Produto::get_Descricao()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Produtos.Produto::set_Descricao(System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Int32 NFe.Dominio.Features.Produtos.Produto::get_Quantidade()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Produtos.Produto::set_Quantidade(System.Int32)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663332</MetadataToken>
+              <Name>NFe.Dominio.Features.Valor.ValorProduto NFe.Dominio.Features.Produtos.Produto::get_ValorProduto()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Produtos.Produto::set_ValorProduto(NFe.Dominio.Features.Valor.ValorProduto)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Produtos.Produto::.ctor()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="34" uspid="75" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="25" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="34" uspid="76" ordinal="1" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="34" uspid="77" ordinal="2" offset="8" sl="15" sc="13" el="15" ec="47" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="34" uspid="78" ordinal="3" offset="20" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="34" uspid="75" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="25" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Produtos.Produto::CalcularValorTotal()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="79" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="80" ordinal="1" offset="1" sl="20" sc="13" el="20" ec="69" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="81" ordinal="2" offset="40" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="79" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="16" sequenceCoverage="100" branchCoverage="100" crapScore="5" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="5" minCrapScore="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Produtos.Produto::Validar()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="15" uspid="82" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="15" uspid="83" ordinal="1" offset="1" sl="25" sc="13" el="25" ec="37" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="84" ordinal="2" offset="17" sl="26" sc="17" el="26" ec="59" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="14" uspid="85" ordinal="3" offset="23" sl="27" sc="13" el="27" ec="49" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="86" ordinal="4" offset="38" sl="28" sc="17" el="28" ec="60" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="13" uspid="87" ordinal="5" offset="44" sl="29" sc="13" el="29" ec="33" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="88" ordinal="6" offset="60" sl="30" sc="17" el="30" ec="56" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="12" uspid="89" ordinal="7" offset="66" sl="31" sc="13" el="31" ec="44" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="90" ordinal="8" offset="91" sl="32" sc="17" el="32" ec="59" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="11" uspid="91" ordinal="9" offset="97" sl="33" sc="9" el="33" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="92" ordinal="0" offset="15" sl="25" path="0" offsetend="17" fileid="5" />
+                <BranchPoint vc="14" uspid="93" ordinal="1" offset="15" sl="25" path="1" offsetend="23" fileid="5" />
+                <BranchPoint vc="1" uspid="94" ordinal="2" offset="36" sl="27" path="0" offsetend="38" fileid="5" />
+                <BranchPoint vc="13" uspid="95" ordinal="3" offset="36" sl="27" path="1" offsetend="44" fileid="5" />
+                <BranchPoint vc="1" uspid="96" ordinal="4" offset="58" sl="29" path="0" offsetend="60" fileid="5" />
+                <BranchPoint vc="12" uspid="97" ordinal="5" offset="58" sl="29" path="1" offsetend="66" fileid="5" />
+                <BranchPoint vc="1" uspid="98" ordinal="6" offset="89" sl="31" path="0" offsetend="91" fileid="5" />
+                <BranchPoint vc="11" uspid="99" ordinal="7" offset="89" sl="31" path="1" offsetend="97" fileid="5" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="15" uspid="82" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="59" visitedSequencePoints="59" numBranchPoints="20" visitedBranchPoints="20" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="17" minCyclomaticComplexity="1" maxCrapScore="17" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>NFe.Dominio.Features.Notas_Fiscais.NotaFiscal</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663342</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_NotaFiscalXml()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663343</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_NotaFiscalXml(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663344</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_NaturezaOperacao()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663345</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_NaturezaOperacao(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663346</MetadataToken>
+              <Name>System.Nullable`1&lt;System.DateTime&gt; NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_DataEmissao()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663347</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_DataEmissao(System.Nullable`1&lt;System.DateTime&gt;)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663348</MetadataToken>
+              <Name>System.DateTime NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_DataEntrada()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663349</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_DataEntrada(System.DateTime)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663350</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_ChaveAcesso()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663351</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_ChaveAcesso(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663352</MetadataToken>
+              <Name>System.Boolean NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_Emitido()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663353</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_Emitido(System.Boolean)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663354</MetadataToken>
+              <Name>System.Collections.Generic.IList`1&lt;NFe.Dominio.Features.Produtos.Produto&gt; NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_Produtos()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663355</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_Produtos(System.Collections.Generic.IList`1&lt;NFe.Dominio.Features.Produtos.Produto&gt;)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663356</MetadataToken>
+              <Name>NFe.Dominio.Features.Valor.ValorNota NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_Valor()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663357</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_Valor(NFe.Dominio.Features.Valor.ValorNota)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663358</MetadataToken>
+              <Name>NFe.Dominio.Features.Destinatarios.Destinatario NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_Destinatario()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663359</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_Destinatario(NFe.Dominio.Features.Destinatarios.Destinatario)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663360</MetadataToken>
+              <Name>NFe.Dominio.Features.Emitentes.Emitente NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_Emitente()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663361</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_Emitente(NFe.Dominio.Features.Emitentes.Emitente)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663362</MetadataToken>
+              <Name>NFe.Dominio.Features.Transportadores.Transportador NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::get_Transportador()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663363</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::set_Transportador(NFe.Dominio.Features.Transportadores.Transportador)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::.ctor()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="20" uspid="100" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="36" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="20" uspid="101" ordinal="1" offset="8" sl="34" sc="9" el="34" ec="35" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="20" uspid="102" ordinal="2" offset="16" sl="36" sc="9" el="36" ec="35" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="20" uspid="103" ordinal="3" offset="27" sl="14" sc="9" el="14" ec="28" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="20" uspid="104" ordinal="4" offset="34" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="20" uspid="105" ordinal="5" offset="35" sl="16" sc="13" el="16" ec="44" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="20" uspid="106" ordinal="6" offset="47" sl="17" sc="13" el="17" ec="43" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="20" uspid="107" ordinal="7" offset="59" sl="18" sc="13" el="18" ec="40" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="20" uspid="108" ordinal="8" offset="71" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="20" uspid="100" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="36" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663364</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::Emitir()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="109" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="110" ordinal="1" offset="1" sl="40" sc="13" el="40" ec="28" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="111" ordinal="2" offset="9" sl="41" sc="13" el="41" ec="40" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="112" ordinal="3" offset="26" sl="42" sc="13" el="42" ec="34" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="113" ordinal="4" offset="33" sl="43" sc="13" el="43" ec="39" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="114" ordinal="5" offset="40" sl="44" sc="13" el="44" ec="34" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="115" ordinal="6" offset="52" sl="45" sc="13" el="45" ec="33" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="116" ordinal="7" offset="64" sl="46" sc="13" el="46" ec="39" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="117" ordinal="8" offset="76" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="109" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="3" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="3" minCrapScore="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663365</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::UnirProdutosIguais()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="118" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="119" ordinal="1" offset="1" sl="51" sc="13" el="66" ec="20" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="120" ordinal="2" offset="80" sl="67" sc="13" el="67" ec="51" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="121" ordinal="3" offset="93" sl="68" sc="9" el="68" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="118" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="3" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="3" minCrapScore="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663366</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::CalcularValoresProdutos()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="126" ordinal="0" offset="0" sl="71" sc="9" el="71" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="127" ordinal="1" offset="1" sl="72" sc="13" el="72" ec="20" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="128" ordinal="2" offset="2" sl="72" sc="37" el="72" ec="45" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="129" ordinal="3" offset="16" sl="72" sc="22" el="72" ec="33" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="130" ordinal="4" offset="23" sl="73" sc="13" el="73" ec="14" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="131" ordinal="5" offset="24" sl="74" sc="17" el="74" ec="46" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="132" ordinal="6" offset="31" sl="75" sc="17" el="75" ec="53" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="133" ordinal="7" offset="43" sl="76" sc="17" el="76" ec="52" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="134" ordinal="8" offset="55" sl="77" sc="17" el="77" ec="67" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="135" ordinal="9" offset="89" sl="78" sc="13" el="78" ec="14" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="4" uspid="136" ordinal="10" offset="90" sl="72" sc="34" el="72" ec="36" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="137" ordinal="11" offset="111" sl="79" sc="9" el="79" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="126" ordinal="0" offset="0" sl="71" sc="9" el="71" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663367</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::GerarChaveAcesso()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="140" ordinal="0" offset="0" sl="82" sc="9" el="82" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="141" ordinal="1" offset="1" sl="83" sc="13" el="83" ec="122" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="142" ordinal="2" offset="56" sl="84" sc="13" el="84" ec="148" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="143" ordinal="3" offset="169" sl="85" sc="9" el="85" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="140" ordinal="0" offset="0" sl="82" sc="9" el="82" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="17" nPathComplexity="128" sequenceCoverage="100" branchCoverage="100" crapScore="17" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="21" visitedSequencePoints="21" numBranchPoints="15" visitedBranchPoints="15" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="17" minCyclomaticComplexity="17" maxCrapScore="17" minCrapScore="17" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663368</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal::Validar()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="144" ordinal="0" offset="0" sl="88" sc="9" el="88" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="8" uspid="145" ordinal="1" offset="1" sl="89" sc="13" el="89" ec="34" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="146" ordinal="2" offset="14" sl="90" sc="17" el="90" ec="62" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="7" uspid="147" ordinal="3" offset="20" sl="91" sc="13" el="91" ec="38" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="148" ordinal="4" offset="33" sl="92" sc="17" el="92" ec="66" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="6" uspid="149" ordinal="5" offset="39" sl="93" sc="13" el="93" ec="39" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="150" ordinal="6" offset="52" sl="94" sc="17" el="94" ec="67" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="151" ordinal="7" offset="58" sl="95" sc="13" el="95" ec="32" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="152" ordinal="8" offset="70" sl="96" sc="13" el="96" ec="36" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="153" ordinal="9" offset="82" sl="97" sc="13" el="97" ec="37" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="154" ordinal="10" offset="94" sl="98" sc="13" el="98" ec="20" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="155" ordinal="11" offset="95" sl="98" sc="37" el="98" ec="45" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="10" uspid="156" ordinal="12" offset="109" sl="98" sc="22" el="98" ec="33" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="10" uspid="157" ordinal="13" offset="117" sl="99" sc="17" el="99" ec="35" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="15" uspid="158" ordinal="14" offset="125" sl="98" sc="34" el="98" ec="36" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="5" uspid="159" ordinal="15" offset="146" sl="100" sc="13" el="101" ec="111" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="160" ordinal="16" offset="316" sl="102" sc="17" el="102" ec="75" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="4" uspid="161" ordinal="17" offset="322" sl="103" sc="13" el="103" ec="25" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="3" uspid="162" ordinal="18" offset="334" sl="104" sc="17" el="104" ec="47" bec="4" bev="4" fileid="6" />
+                <SequencePoint vc="1" uspid="163" ordinal="19" offset="382" sl="105" sc="21" el="105" ec="72" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="164" ordinal="20" offset="388" sl="106" sc="9" el="106" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="165" ordinal="0" offset="12" sl="89" path="0" offsetend="14" fileid="6" />
+                <BranchPoint vc="7" uspid="166" ordinal="1" offset="12" sl="89" path="1" offsetend="20" fileid="6" />
+                <BranchPoint vc="1" uspid="167" ordinal="2" offset="31" sl="91" path="0" offsetend="33" fileid="6" />
+                <BranchPoint vc="6" uspid="168" ordinal="3" offset="31" sl="91" path="1" offsetend="39" fileid="6" />
+                <BranchPoint vc="1" uspid="169" ordinal="4" offset="50" sl="93" path="0" offsetend="52" fileid="6" />
+                <BranchPoint vc="5" uspid="170" ordinal="5" offset="50" sl="93" path="1" offsetend="58" fileid="6" />
+                <BranchPoint vc="1" uspid="183" ordinal="18" offset="314" sl="100" path="0" offsetend="316" fileid="6" />
+                <BranchPoint vc="4" uspid="184" ordinal="19" offset="314" sl="100" path="1" offsetend="322" fileid="6" />
+                <BranchPoint vc="3" uspid="185" ordinal="20" offset="332" sl="103" path="0" offsetend="334" fileid="6" />
+                <BranchPoint vc="1" uspid="186" ordinal="21" offset="332" sl="103" path="1" offsetend="388" fileid="6" />
+                <BranchPoint vc="1" uspid="187" ordinal="22" offset="357" sl="104" path="0" offsetend="359" fileid="6" />
+                <BranchPoint vc="2" uspid="188" ordinal="23" offset="357" sl="104" path="1" offsetend="362" fileid="6" />
+                <BranchPoint vc="1" uspid="189" ordinal="24" offset="380" sl="104" path="0" offsetend="382" fileid="6" />
+                <BranchPoint vc="2" uspid="190" ordinal="25" offset="380" sl="104" path="1" offsetend="388" fileid="6" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="144" ordinal="0" offset="0" sl="88" sc="9" el="88" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>NFe.Dominio.Features.Notas_Fiscais.NotaFiscal/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663567</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="191" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663568</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Notas_Fiscais.NotaFiscal/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="192" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663569</MetadataToken>
+              <Name>System.Int64 NFe.Dominio.Features.Notas_Fiscais.NotaFiscal/&lt;&gt;c::&lt;UnirProdutosIguais&gt;b__49_0(NFe.Dominio.Features.Produtos.Produto)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="193" ordinal="0" offset="0" sl="52" sc="36" el="52" ec="45" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="193" ordinal="0" offset="0" sl="52" sc="36" el="52" ec="45" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663570</MetadataToken>
+              <Name>NFe.Dominio.Features.Produtos.Produto NFe.Dominio.Features.Notas_Fiscais.NotaFiscal/&lt;&gt;c::&lt;UnirProdutosIguais&gt;b__49_1(System.Linq.IGrouping`2&lt;System.Int64,NFe.Dominio.Features.Produtos.Produto&gt;)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="194" ordinal="0" offset="0" sl="53" sc="33" el="66" ec="18" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="194" ordinal="0" offset="0" sl="53" sc="33" el="66" ec="18" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663571</MetadataToken>
+              <Name>System.Int32 NFe.Dominio.Features.Notas_Fiscais.NotaFiscal/&lt;&gt;c::&lt;UnirProdutosIguais&gt;b__49_2(NFe.Dominio.Features.Produtos.Produto)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="197" ordinal="0" offset="0" sl="56" sc="54" el="56" ec="72" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="197" ordinal="0" offset="0" sl="56" sc="54" el="56" ec="72" bec="0" bev="0" fileid="6" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="13" visitedBranchPoints="13" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" maxCrapScore="7" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>NFe.Dominio.Features.Enderecos.Endereco</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663498</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Enderecos.Endereco::get_Logradouro()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663499</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Enderecos.Endereco::set_Logradouro(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663500</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Enderecos.Endereco::get_Numero()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663501</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Enderecos.Endereco::set_Numero(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663502</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Enderecos.Endereco::get_Bairro()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663503</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Enderecos.Endereco::set_Bairro(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663504</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Enderecos.Endereco::get_Municipio()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663505</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Enderecos.Endereco::set_Municipio(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663506</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Enderecos.Endereco::get_Estado()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663507</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Enderecos.Endereco::set_Estado(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663508</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Enderecos.Endereco::get_Pais()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663509</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Enderecos.Endereco::set_Pais(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="7" nPathComplexity="64" sequenceCoverage="100" branchCoverage="100" crapScore="7" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="13" visitedBranchPoints="13" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="7" minCyclomaticComplexity="7" maxCrapScore="7" minCrapScore="7" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663510</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Enderecos.Endereco::Validar()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="37" uspid="198" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="37" uspid="199" ordinal="1" offset="1" sl="16" sc="13" el="16" ec="50" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="200" ordinal="2" offset="16" sl="17" sc="17" el="17" ec="62" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="36" uspid="201" ordinal="3" offset="22" sl="18" sc="13" el="18" ec="46" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="202" ordinal="4" offset="37" sl="19" sc="17" el="19" ec="58" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="35" uspid="203" ordinal="5" offset="43" sl="20" sc="13" el="20" ec="49" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="204" ordinal="6" offset="58" sl="21" sc="17" el="21" ec="61" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="34" uspid="205" ordinal="7" offset="64" sl="22" sc="13" el="22" ec="46" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="206" ordinal="8" offset="79" sl="23" sc="17" el="23" ec="58" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="33" uspid="207" ordinal="9" offset="85" sl="24" sc="13" el="24" ec="44" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="208" ordinal="10" offset="102" sl="25" sc="17" el="25" ec="56" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="32" uspid="209" ordinal="11" offset="108" sl="26" sc="13" el="26" ec="46" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="210" ordinal="12" offset="125" sl="27" sc="17" el="27" ec="32" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="32" uspid="211" ordinal="13" offset="137" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="212" ordinal="0" offset="14" sl="16" path="0" offsetend="16" fileid="9" />
+                <BranchPoint vc="36" uspid="213" ordinal="1" offset="14" sl="16" path="1" offsetend="22" fileid="9" />
+                <BranchPoint vc="1" uspid="214" ordinal="2" offset="35" sl="18" path="0" offsetend="37" fileid="9" />
+                <BranchPoint vc="35" uspid="215" ordinal="3" offset="35" sl="18" path="1" offsetend="43" fileid="9" />
+                <BranchPoint vc="1" uspid="216" ordinal="4" offset="56" sl="20" path="0" offsetend="58" fileid="9" />
+                <BranchPoint vc="34" uspid="217" ordinal="5" offset="56" sl="20" path="1" offsetend="64" fileid="9" />
+                <BranchPoint vc="1" uspid="218" ordinal="6" offset="77" sl="22" path="0" offsetend="79" fileid="9" />
+                <BranchPoint vc="33" uspid="219" ordinal="7" offset="77" sl="22" path="1" offsetend="85" fileid="9" />
+                <BranchPoint vc="1" uspid="220" ordinal="8" offset="100" sl="24" path="0" offsetend="102" fileid="9" />
+                <BranchPoint vc="32" uspid="221" ordinal="9" offset="100" sl="24" path="1" offsetend="108" fileid="9" />
+                <BranchPoint vc="1" uspid="222" ordinal="10" offset="123" sl="26" path="0" offsetend="125" fileid="9" />
+                <BranchPoint vc="31" uspid="223" ordinal="11" offset="123" sl="26" path="1" offsetend="137" fileid="9" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="37" uspid="198" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663511</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Enderecos.Endereco::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="224" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="15" visitedBranchPoints="15" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" maxCrapScore="10" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>NFe.Dominio.Features.Emitentes.Emitente</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663517</MetadataToken>
+              <Name>System.String NFe.Dominio.Features.Emitentes.Emitente::get_InscricaoMunicipal()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663518</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Emitentes.Emitente::set_InscricaoMunicipal(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="10" nPathComplexity="128" sequenceCoverage="100" branchCoverage="100" crapScore="10" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="15" visitedBranchPoints="15" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="10" minCyclomaticComplexity="10" maxCrapScore="10" minCrapScore="10" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663519</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Emitentes.Emitente::Validar()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="15" uspid="225" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="15" uspid="226" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="44" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="227" ordinal="2" offset="16" sl="14" sc="17" el="14" ec="56" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="14" uspid="228" ordinal="3" offset="22" sl="15" sc="13" el="15" ec="51" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="229" ordinal="4" offset="37" sl="16" sc="17" el="16" ec="63" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="13" uspid="230" ordinal="5" offset="43" sl="17" sc="13" el="17" ec="57" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="231" ordinal="6" offset="58" sl="18" sc="17" el="18" ec="69" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="12" uspid="232" ordinal="7" offset="64" sl="19" sc="13" el="19" ec="58" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="233" ordinal="8" offset="79" sl="20" sc="17" el="20" ec="70" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="11" uspid="234" ordinal="9" offset="85" sl="21" sc="13" el="21" ec="85" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="235" ordinal="10" offset="128" sl="22" sc="17" el="22" ec="59" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="10" uspid="236" ordinal="11" offset="134" sl="23" sc="13" el="23" ec="86" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="9" uspid="237" ordinal="12" offset="177" sl="24" sc="17" el="24" ec="44" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="238" ordinal="13" offset="197" sl="25" sc="21" el="25" ec="55" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="9" uspid="239" ordinal="14" offset="203" sl="27" sc="13" el="27" ec="32" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="9" uspid="240" ordinal="15" offset="215" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="241" ordinal="0" offset="14" sl="13" path="0" offsetend="16" fileid="10" />
+                <BranchPoint vc="14" uspid="242" ordinal="1" offset="14" sl="13" path="1" offsetend="22" fileid="10" />
+                <BranchPoint vc="1" uspid="243" ordinal="2" offset="35" sl="15" path="0" offsetend="37" fileid="10" />
+                <BranchPoint vc="13" uspid="244" ordinal="3" offset="35" sl="15" path="1" offsetend="43" fileid="10" />
+                <BranchPoint vc="1" uspid="245" ordinal="4" offset="56" sl="17" path="0" offsetend="58" fileid="10" />
+                <BranchPoint vc="12" uspid="246" ordinal="5" offset="56" sl="17" path="1" offsetend="64" fileid="10" />
+                <BranchPoint vc="1" uspid="247" ordinal="6" offset="77" sl="19" path="0" offsetend="79" fileid="10" />
+                <BranchPoint vc="11" uspid="248" ordinal="7" offset="77" sl="19" path="1" offsetend="85" fileid="10" />
+                <BranchPoint vc="1" uspid="251" ordinal="10" offset="126" sl="21" path="0" offsetend="128" fileid="10" />
+                <BranchPoint vc="10" uspid="252" ordinal="11" offset="126" sl="21" path="1" offsetend="134" fileid="10" />
+                <BranchPoint vc="9" uspid="255" ordinal="14" offset="175" sl="23" path="0" offsetend="177" fileid="10" />
+                <BranchPoint vc="1" uspid="256" ordinal="15" offset="175" sl="23" path="1" offsetend="203" fileid="10" />
+                <BranchPoint vc="1" uspid="257" ordinal="16" offset="195" sl="24" path="0" offsetend="197" fileid="10" />
+                <BranchPoint vc="8" uspid="258" ordinal="17" offset="195" sl="24" path="1" offsetend="203" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="15" uspid="225" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663520</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Emitentes.Emitente::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="259" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="15" visitedBranchPoints="15" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="12" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>NFe.Dominio.Features.Destinatarios.Destinatario</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="12" nPathComplexity="128" sequenceCoverage="100" branchCoverage="100" crapScore="12" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="15" visitedBranchPoints="15" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="12" minCyclomaticComplexity="12" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663526</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Destinatarios.Destinatario::Validar()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="15" uspid="260" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="15" uspid="261" ordinal="1" offset="1" sl="11" sc="13" el="11" ec="91" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="262" ordinal="2" offset="32" sl="12" sc="17" el="12" ec="65" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="14" uspid="263" ordinal="3" offset="38" sl="13" sc="13" el="13" ec="62" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="264" ordinal="4" offset="53" sl="14" sc="17" el="14" ec="73" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="13" uspid="265" ordinal="5" offset="59" sl="15" sc="13" el="15" ec="85" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="266" ordinal="6" offset="100" sl="16" sc="17" el="16" ec="63" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="12" uspid="267" ordinal="7" offset="106" sl="17" sc="13" el="17" ec="86" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="2" uspid="268" ordinal="8" offset="147" sl="18" sc="17" el="18" ec="43" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="269" ordinal="9" offset="167" sl="19" sc="21" el="19" ec="54" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="11" uspid="270" ordinal="10" offset="173" sl="20" sc="13" el="20" ec="86" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="3" uspid="271" ordinal="11" offset="216" sl="21" sc="17" el="21" ec="44" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="272" ordinal="12" offset="236" sl="22" sc="21" el="22" ec="55" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="10" uspid="273" ordinal="13" offset="242" sl="24" sc="13" el="24" ec="32" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="10" uspid="274" ordinal="14" offset="254" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="277" ordinal="2" offset="30" sl="11" path="0" offsetend="32" fileid="11" />
+                <BranchPoint vc="14" uspid="278" ordinal="3" offset="30" sl="11" path="1" offsetend="38" fileid="11" />
+                <BranchPoint vc="1" uspid="279" ordinal="4" offset="51" sl="13" path="0" offsetend="53" fileid="11" />
+                <BranchPoint vc="13" uspid="280" ordinal="5" offset="51" sl="13" path="1" offsetend="59" fileid="11" />
+                <BranchPoint vc="1" uspid="283" ordinal="8" offset="98" sl="15" path="0" offsetend="100" fileid="11" />
+                <BranchPoint vc="12" uspid="284" ordinal="9" offset="98" sl="15" path="1" offsetend="106" fileid="11" />
+                <BranchPoint vc="2" uspid="287" ordinal="12" offset="145" sl="17" path="0" offsetend="147" fileid="11" />
+                <BranchPoint vc="10" uspid="288" ordinal="13" offset="145" sl="17" path="1" offsetend="173" fileid="11" />
+                <BranchPoint vc="1" uspid="289" ordinal="14" offset="165" sl="18" path="0" offsetend="167" fileid="11" />
+                <BranchPoint vc="1" uspid="290" ordinal="15" offset="165" sl="18" path="1" offsetend="173" fileid="11" />
+                <BranchPoint vc="3" uspid="293" ordinal="18" offset="214" sl="20" path="0" offsetend="216" fileid="11" />
+                <BranchPoint vc="8" uspid="294" ordinal="19" offset="214" sl="20" path="1" offsetend="242" fileid="11" />
+                <BranchPoint vc="1" uspid="295" ordinal="20" offset="234" sl="21" path="0" offsetend="236" fileid="11" />
+                <BranchPoint vc="2" uspid="296" ordinal="21" offset="234" sl="21" path="1" offsetend="242" fileid="11" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="15" uspid="260" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663527</MetadataToken>
+              <Name>System.Void NFe.Dominio.Features.Destinatarios.Destinatario::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="297" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="CD-82-93-E1-2A-70-CC-82-54-F8-2C-B0-41-E9-D5-33-CB-3C-EE-9B">
+      <Summary numSequencePoints="135" visitedSequencePoints="127" numBranchPoints="45" visitedBranchPoints="37" sequenceCoverage="94.07" branchCoverage="82.22" maxCyclomaticComplexity="13" minCyclomaticComplexity="0" maxCrapScore="13.04" minCrapScore="0" visitedClasses="2" numClasses="2" visitedMethods="9" numMethods="11" />
+      <ModulePath>C:\academia\BandOfBrothers\Projeto_NFe\NFe.Dominio.Testes\bin\Debug\NFe.Infra.dll</ModulePath>
+      <ModuleTime>2018-06-13T17:21:52.1322844Z</ModuleTime>
+      <ModuleName>NFe.Infra</ModuleName>
+      <Files>
+        <File uid="23" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Infra\Features\Cpf\Cpf.cs" />
+        <File uid="24" fullPath="C:\academia\BandOfBrothers\Projeto_NFe\NFe.Infra\Features\Cnpj\Cnpj.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="70" visitedSequencePoints="66" numBranchPoints="23" visitedBranchPoints="19" sequenceCoverage="94.29" branchCoverage="82.61" maxCyclomaticComplexity="13" minCyclomaticComplexity="1" maxCrapScore="13.03" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="5" />
+          <FullName>NFe.Infra.Features.Cpf.Cpf</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void NFe.Infra.Features.Cpf.Cpf::.ctor(System.String)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="46" uspid="298" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="46" uspid="299" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="27" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="46" uspid="300" ordinal="2" offset="8" sl="14" sc="13" el="14" ec="33" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="46" uspid="301" ordinal="3" offset="19" sl="15" sc="13" el="15" ec="30" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="46" uspid="302" ordinal="4" offset="26" sl="17" sc="13" el="17" ec="45" bec="2" bev="2" fileid="23" />
+                <SequencePoint vc="10" uspid="303" ordinal="5" offset="36" sl="18" sc="17" el="18" ec="24" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="304" ordinal="6" offset="38" sl="20" sc="13" el="20" ec="34" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="305" ordinal="7" offset="46" sl="22" sc="13" el="22" ec="40" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="46" uspid="306" ordinal="8" offset="59" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="10" uspid="307" ordinal="0" offset="34" sl="17" path="0" offsetchain="36" offsetend="59" fileid="23" />
+                <BranchPoint vc="36" uspid="308" ordinal="1" offset="34" sl="17" path="1" offsetend="38" fileid="23" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="46" uspid="298" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="23" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="13" nPathComplexity="256" sequenceCoverage="94.64" branchCoverage="82.35" crapScore="13.03" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="56" visitedSequencePoints="53" numBranchPoints="17" visitedBranchPoints="14" sequenceCoverage="94.64" branchCoverage="82.35" maxCyclomaticComplexity="13" minCyclomaticComplexity="13" maxCrapScore="13.03" minCrapScore="13.03" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void NFe.Infra.Features.Cpf.Cpf::ValidarCpf(System.String)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="36" uspid="309" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="310" ordinal="1" offset="1" sl="27" sc="13" el="27" ec="29" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="311" ordinal="2" offset="3" sl="28" sc="13" el="28" ec="34" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="312" ordinal="3" offset="5" sl="29" sc="13" el="29" ec="34" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="313" ordinal="4" offset="7" sl="30" sc="13" el="30" ec="25" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="314" ordinal="5" offset="9" sl="31" sc="13" el="31" ec="25" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="315" ordinal="6" offset="12" sl="33" sc="13" el="33" ec="42" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="316" ordinal="7" offset="15" sl="34" sc="13" el="34" ec="35" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="317" ordinal="8" offset="18" sl="36" sc="13" el="36" ec="20" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="318" ordinal="9" offset="19" sl="36" sc="31" el="36" ec="36" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="319" ordinal="10" offset="30" sl="36" sc="22" el="36" ec="27" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="320" ordinal="11" offset="41" sl="37" sc="13" el="37" ec="14" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="321" ordinal="12" offset="42" sl="38" sc="17" el="38" ec="37" bec="2" bev="1" fileid="23" />
+                <SequencePoint vc="395" uspid="322" ordinal="13" offset="55" sl="39" sc="17" el="39" ec="18" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="323" ordinal="14" offset="56" sl="40" sc="21" el="40" ec="42" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="324" ordinal="15" offset="63" sl="41" sc="21" el="41" ec="64" bec="2" bev="2" fileid="23" />
+                <SequencePoint vc="349" uspid="325" ordinal="16" offset="84" sl="42" sc="21" el="42" ec="22" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="349" uspid="326" ordinal="17" offset="85" sl="43" sc="25" el="43" ec="50" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="349" uspid="327" ordinal="18" offset="88" sl="44" sc="21" el="44" ec="22" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="328" ordinal="19" offset="89" sl="46" sc="21" el="46" ec="43" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="329" ordinal="20" offset="93" sl="47" sc="21" el="47" ec="37" bec="2" bev="2" fileid="23" />
+                <SequencePoint vc="324" uspid="330" ordinal="21" offset="104" sl="48" sc="21" el="48" ec="22" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="324" uspid="331" ordinal="22" offset="105" sl="49" sc="25" el="49" ec="65" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="324" uspid="332" ordinal="23" offset="115" sl="50" sc="25" el="50" ec="65" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="324" uspid="333" ordinal="24" offset="125" sl="51" sc="21" el="51" ec="22" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="71" uspid="334" ordinal="25" offset="128" sl="52" sc="26" el="52" ec="43" bec="2" bev="2" fileid="23" />
+                <SequencePoint vc="36" uspid="335" ordinal="26" offset="139" sl="53" sc="21" el="53" ec="22" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="336" ordinal="27" offset="140" sl="54" sc="25" el="54" ec="38" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="337" ordinal="28" offset="143" sl="55" sc="21" el="55" ec="22" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="35" uspid="338" ordinal="29" offset="146" sl="56" sc="26" el="56" ec="44" bec="2" bev="1" fileid="23" />
+                <SequencePoint vc="35" uspid="339" ordinal="30" offset="157" sl="57" sc="21" el="57" ec="22" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="35" uspid="340" ordinal="31" offset="158" sl="58" sc="25" el="58" ec="38" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="35" uspid="341" ordinal="32" offset="162" sl="59" sc="21" el="59" ec="22" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="342" ordinal="33" offset="163" sl="61" sc="21" el="61" ec="31" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="343" ordinal="34" offset="167" sl="62" sc="17" el="62" ec="18" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="395" uspid="344" ordinal="35" offset="168" sl="63" sc="13" el="63" ec="14" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="431" uspid="345" ordinal="36" offset="175" sl="36" sc="28" el="36" ec="30" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="346" ordinal="37" offset="189" sl="65" sc="13" el="65" ec="30" bec="2" bev="1" fileid="23" />
+                <SequencePoint vc="0" uspid="347" ordinal="38" offset="200" sl="66" sc="13" el="66" ec="14" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="348" ordinal="39" offset="201" sl="67" sc="17" el="67" ec="34" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="349" ordinal="40" offset="208" sl="68" sc="17" el="68" ec="24" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="350" ordinal="41" offset="210" sl="71" sc="13" el="71" ec="34" bec="2" bev="2" fileid="23" />
+                <SequencePoint vc="1" uspid="351" ordinal="42" offset="218" sl="72" sc="13" el="72" ec="14" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="1" uspid="352" ordinal="43" offset="219" sl="73" sc="17" el="73" ec="34" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="1" uspid="353" ordinal="44" offset="226" sl="74" sc="17" el="74" ec="24" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="35" uspid="354" ordinal="45" offset="228" sl="77" sc="13" el="77" ec="45" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="35" uspid="355" ordinal="46" offset="234" sl="78" sc="13" el="80" ec="32" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="35" uspid="356" ordinal="47" offset="249" sl="82" sc="13" el="82" ec="32" bec="2" bev="2" fileid="23" />
+                <SequencePoint vc="1" uspid="357" ordinal="48" offset="263" sl="83" sc="13" el="83" ec="14" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="1" uspid="358" ordinal="49" offset="264" sl="84" sc="17" el="84" ec="34" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="1" uspid="359" ordinal="50" offset="271" sl="85" sc="17" el="85" ec="24" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="34" uspid="360" ordinal="51" offset="273" sl="88" sc="13" el="88" ec="41" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="34" uspid="361" ordinal="52" offset="280" sl="89" sc="13" el="89" ec="45" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="34" uspid="362" ordinal="53" offset="286" sl="90" sc="13" el="92" ec="32" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="34" uspid="363" ordinal="54" offset="301" sl="94" sc="13" el="94" ec="39" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="364" ordinal="55" offset="313" sl="95" sc="9" el="95" ec="10" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="395" uspid="365" ordinal="0" offset="53" sl="38" path="0" offsetend="55" fileid="23" />
+                <BranchPoint vc="0" uspid="366" ordinal="1" offset="53" sl="38" path="1" offsetend="168" fileid="23" />
+                <BranchPoint vc="349" uspid="369" ordinal="4" offset="82" sl="41" path="0" offsetend="84" fileid="23" />
+                <BranchPoint vc="46" uspid="370" ordinal="5" offset="82" sl="41" path="1" offsetend="89" fileid="23" />
+                <BranchPoint vc="324" uspid="371" ordinal="6" offset="102" sl="47" path="0" offsetend="104" fileid="23" />
+                <BranchPoint vc="71" uspid="372" ordinal="7" offset="102" sl="47" path="1" offsetend="128" fileid="23" />
+                <BranchPoint vc="36" uspid="373" ordinal="8" offset="137" sl="52" path="0" offsetend="139" fileid="23" />
+                <BranchPoint vc="35" uspid="374" ordinal="9" offset="137" sl="52" path="1" offsetend="146" fileid="23" />
+                <BranchPoint vc="35" uspid="375" ordinal="10" offset="155" sl="56" path="0" offsetend="157" fileid="23" />
+                <BranchPoint vc="0" uspid="376" ordinal="11" offset="155" sl="56" path="1" offsetend="163" fileid="23" />
+                <BranchPoint vc="0" uspid="379" ordinal="14" offset="198" sl="65" path="0" offsetend="200" fileid="23" />
+                <BranchPoint vc="36" uspid="380" ordinal="15" offset="198" sl="65" path="1" offsetend="210" fileid="23" />
+                <BranchPoint vc="1" uspid="381" ordinal="16" offset="216" sl="71" path="0" offsetend="218" fileid="23" />
+                <BranchPoint vc="35" uspid="382" ordinal="17" offset="216" sl="71" path="1" offsetend="228" fileid="23" />
+                <BranchPoint vc="1" uspid="385" ordinal="20" offset="261" sl="82" path="0" offsetend="263" fileid="23" />
+                <BranchPoint vc="34" uspid="386" ordinal="21" offset="261" sl="82" path="1" offsetend="273" fileid="23" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="36" uspid="309" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="23" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void NFe.Infra.Features.Cpf.Cpf::FormatarValor(System.String)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="36" uspid="389" ordinal="0" offset="0" sl="98" sc="9" el="98" ec="10" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="390" ordinal="1" offset="1" sl="99" sc="13" el="99" ec="87" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="36" uspid="391" ordinal="2" offset="53" sl="100" sc="9" el="100" ec="10" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="36" uspid="389" ordinal="0" offset="0" sl="98" sc="9" el="98" ec="10" bec="0" bev="0" fileid="23" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>NFe.Infra.Features.Cpf.Cpf NFe.Infra.Features.Cpf.Cpf::op_Implicit(System.String)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="46" uspid="392" ordinal="0" offset="0" sl="103" sc="16" el="103" ec="30" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="46" uspid="392" ordinal="0" offset="0" sl="103" sc="16" el="103" ec="30" bec="0" bev="0" fileid="23" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.String NFe.Infra.Features.Cpf.Cpf::op_Implicit(NFe.Infra.Features.Cpf.Cpf)</Name>
+              <FileRef uid="23" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="393" ordinal="0" offset="0" sl="106" sc="16" el="106" ec="25" bec="0" bev="0" fileid="23" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="393" ordinal="0" offset="0" sl="106" sc="16" el="106" ec="25" bec="0" bev="0" fileid="23" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="65" visitedSequencePoints="61" numBranchPoints="22" visitedBranchPoints="18" sequenceCoverage="93.85" branchCoverage="81.82" maxCyclomaticComplexity="13" minCyclomaticComplexity="1" maxCrapScore="13.04" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="5" numMethods="6" />
+          <FullName>NFe.Infra.Features.Cnpj.Cnpj</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void NFe.Infra.Features.Cnpj.Cnpj::.ctor(System.String)</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="63" uspid="394" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="63" uspid="395" ordinal="1" offset="1" sl="13" sc="13" el="13" ec="27" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="63" uspid="396" ordinal="2" offset="8" sl="14" sc="13" el="14" ec="33" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="63" uspid="397" ordinal="3" offset="19" sl="15" sc="13" el="15" ec="30" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="63" uspid="398" ordinal="4" offset="26" sl="17" sc="13" el="17" ec="45" bec="2" bev="2" fileid="24" />
+                <SequencePoint vc="20" uspid="399" ordinal="5" offset="36" sl="18" sc="17" el="18" ec="24" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="400" ordinal="6" offset="38" sl="20" sc="13" el="20" ec="33" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="401" ordinal="7" offset="46" sl="21" sc="13" el="21" ec="41" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="63" uspid="402" ordinal="8" offset="59" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="20" uspid="403" ordinal="0" offset="34" sl="17" path="0" offsetchain="36" offsetend="59" fileid="24" />
+                <BranchPoint vc="43" uspid="404" ordinal="1" offset="34" sl="17" path="1" offsetend="38" fileid="24" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="63" uspid="394" ordinal="0" offset="0" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="24" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void NFe.Infra.Features.Cnpj.Cnpj::FormatarCnpj(System.String)</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="43" uspid="405" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="406" ordinal="1" offset="1" sl="26" sc="13" el="26" ec="43" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="407" ordinal="2" offset="13" sl="27" sc="13" el="27" ec="96" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="408" ordinal="3" offset="70" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="43" uspid="405" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="24" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="13" nPathComplexity="128" sequenceCoverage="93.75" branchCoverage="80" crapScore="13.04" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="48" visitedSequencePoints="45" numBranchPoints="15" visitedBranchPoints="12" sequenceCoverage="93.75" branchCoverage="80" maxCyclomaticComplexity="13" minCyclomaticComplexity="13" maxCrapScore="13.04" minCrapScore="13.04" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void NFe.Infra.Features.Cnpj.Cnpj::ValidarCnpj(System.String)</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="43" uspid="409" ordinal="0" offset="0" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="410" ordinal="1" offset="1" sl="32" sc="13" el="32" ec="41" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="411" ordinal="2" offset="3" sl="33" sc="13" el="33" ec="35" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="412" ordinal="3" offset="5" sl="34" sc="13" el="34" ec="29" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="413" ordinal="4" offset="7" sl="35" sc="13" el="35" ec="34" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="414" ordinal="5" offset="9" sl="36" sc="13" el="36" ec="34" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="415" ordinal="6" offset="12" sl="38" sc="13" el="38" ec="20" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="416" ordinal="7" offset="13" sl="38" sc="31" el="38" ec="36" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="599" uspid="417" ordinal="8" offset="29" sl="38" sc="22" el="38" ec="27" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="599" uspid="418" ordinal="9" offset="40" sl="39" sc="13" el="39" ec="14" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="599" uspid="419" ordinal="10" offset="41" sl="40" sc="17" el="40" ec="37" bec="2" bev="1" fileid="24" />
+                <SequencePoint vc="599" uspid="420" ordinal="11" offset="57" sl="41" sc="17" el="41" ec="18" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="599" uspid="421" ordinal="12" offset="58" sl="42" sc="21" el="42" ec="42" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="599" uspid="422" ordinal="13" offset="65" sl="43" sc="21" el="43" ec="64" bec="2" bev="2" fileid="24" />
+                <SequencePoint vc="428" uspid="423" ordinal="14" offset="85" sl="44" sc="21" el="44" ec="22" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="428" uspid="424" ordinal="15" offset="86" sl="45" sc="25" el="45" ec="50" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="428" uspid="425" ordinal="16" offset="88" sl="46" sc="21" el="46" ec="22" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="599" uspid="426" ordinal="17" offset="89" sl="48" sc="21" el="48" ec="43" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="599" uspid="427" ordinal="18" offset="92" sl="49" sc="21" el="49" ec="38" bec="2" bev="2" fileid="24" />
+                <SequencePoint vc="516" uspid="428" ordinal="19" offset="103" sl="50" sc="21" el="50" ec="22" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="516" uspid="429" ordinal="20" offset="104" sl="51" sc="25" el="51" ec="74" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="516" uspid="430" ordinal="21" offset="117" sl="52" sc="25" el="52" ec="74" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="516" uspid="431" ordinal="22" offset="132" sl="53" sc="21" el="53" ec="22" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="83" uspid="432" ordinal="23" offset="138" sl="54" sc="26" el="54" ec="44" bec="2" bev="2" fileid="24" />
+                <SequencePoint vc="43" uspid="433" ordinal="24" offset="149" sl="55" sc="21" el="55" ec="22" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="434" ordinal="25" offset="150" sl="56" sc="25" el="56" ec="55" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="435" ordinal="26" offset="156" sl="57" sc="25" el="59" ec="40" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="436" ordinal="27" offset="171" sl="61" sc="25" el="61" ec="43" bec="2" bev="2" fileid="24" />
+                <SequencePoint vc="1" uspid="437" ordinal="28" offset="186" sl="62" sc="25" el="62" ec="26" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="1" uspid="438" ordinal="29" offset="187" sl="63" sc="29" el="63" ec="46" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="1" uspid="439" ordinal="30" offset="194" sl="64" sc="29" el="64" ec="36" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="42" uspid="440" ordinal="31" offset="196" sl="67" sc="25" el="67" ec="66" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="42" uspid="441" ordinal="32" offset="212" sl="68" sc="21" el="68" ec="22" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="40" uspid="442" ordinal="33" offset="215" sl="69" sc="26" el="69" ec="44" bec="2" bev="1" fileid="24" />
+                <SequencePoint vc="40" uspid="443" ordinal="34" offset="226" sl="70" sc="21" el="70" ec="22" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="40" uspid="444" ordinal="35" offset="227" sl="71" sc="25" el="71" ec="55" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="40" uspid="445" ordinal="36" offset="234" sl="73" sc="25" el="75" ec="40" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="40" uspid="446" ordinal="37" offset="249" sl="77" sc="25" el="77" ec="43" bec="2" bev="1" fileid="24" />
+                <SequencePoint vc="0" uspid="447" ordinal="38" offset="264" sl="78" sc="25" el="78" ec="26" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="448" ordinal="39" offset="265" sl="79" sc="29" el="79" ec="46" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="0" uspid="449" ordinal="40" offset="272" sl="80" sc="29" el="80" ec="36" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="40" uspid="450" ordinal="41" offset="274" sl="82" sc="21" el="82" ec="22" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="598" uspid="451" ordinal="42" offset="275" sl="84" sc="21" el="84" ec="31" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="598" uspid="452" ordinal="43" offset="279" sl="85" sc="17" el="85" ec="18" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="598" uspid="453" ordinal="44" offset="280" sl="86" sc="13" el="86" ec="14" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="641" uspid="454" ordinal="45" offset="287" sl="38" sc="28" el="38" ec="30" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="42" uspid="455" ordinal="46" offset="301" sl="88" sc="13" el="88" ec="61" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="43" uspid="456" ordinal="47" offset="319" sl="89" sc="9" el="89" ec="10" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="599" uspid="457" ordinal="0" offset="52" sl="40" path="0" offsetend="57" fileid="24" />
+                <BranchPoint vc="0" uspid="458" ordinal="1" offset="52" sl="40" path="1" offsetend="280" fileid="24" />
+                <BranchPoint vc="428" uspid="461" ordinal="4" offset="83" sl="43" path="0" offsetend="85" fileid="24" />
+                <BranchPoint vc="171" uspid="462" ordinal="5" offset="83" sl="43" path="1" offsetend="89" fileid="24" />
+                <BranchPoint vc="516" uspid="463" ordinal="6" offset="101" sl="49" path="0" offsetend="103" fileid="24" />
+                <BranchPoint vc="83" uspid="464" ordinal="7" offset="101" sl="49" path="1" offsetend="138" fileid="24" />
+                <BranchPoint vc="43" uspid="465" ordinal="8" offset="147" sl="54" path="0" offsetend="149" fileid="24" />
+                <BranchPoint vc="40" uspid="466" ordinal="9" offset="147" sl="54" path="1" offsetend="215" fileid="24" />
+                <BranchPoint vc="1" uspid="469" ordinal="12" offset="184" sl="61" path="0" offsetend="186" fileid="24" />
+                <BranchPoint vc="42" uspid="470" ordinal="13" offset="184" sl="61" path="1" offsetend="196" fileid="24" />
+                <BranchPoint vc="40" uspid="471" ordinal="14" offset="224" sl="69" path="0" offsetend="226" fileid="24" />
+                <BranchPoint vc="0" uspid="472" ordinal="15" offset="224" sl="69" path="1" offsetend="275" fileid="24" />
+                <BranchPoint vc="0" uspid="475" ordinal="18" offset="262" sl="77" path="0" offsetend="264" fileid="24" />
+                <BranchPoint vc="40" uspid="476" ordinal="19" offset="262" sl="77" path="1" offsetend="274" fileid="24" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="43" uspid="409" ordinal="0" offset="0" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="24" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>NFe.Infra.Features.Cnpj.Cnpj NFe.Infra.Features.Cnpj.Cnpj::op_Implicit(System.String)</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="63" uspid="481" ordinal="0" offset="0" sl="92" sc="16" el="92" ec="31" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="63" uspid="481" ordinal="0" offset="0" sl="92" sc="16" el="92" ec="31" bec="0" bev="0" fileid="24" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.String NFe.Infra.Features.Cnpj.Cnpj::op_Implicit(NFe.Infra.Features.Cnpj.Cnpj)</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="482" ordinal="0" offset="0" sl="95" sc="12" el="95" ec="22" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="482" ordinal="0" offset="0" sl="95" sc="12" el="95" ec="22" bec="0" bev="0" fileid="24" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void NFe.Infra.Features.Cnpj.Cnpj::.cctor()</Name>
+              <FileRef uid="24" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="483" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="87" bec="0" bev="0" fileid="24" />
+                <SequencePoint vc="1" uspid="484" ordinal="1" offset="23" sl="8" sc="9" el="8" ec="90" bec="0" bev="0" fileid="24" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="483" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="87" bec="0" bev="0" fileid="24" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

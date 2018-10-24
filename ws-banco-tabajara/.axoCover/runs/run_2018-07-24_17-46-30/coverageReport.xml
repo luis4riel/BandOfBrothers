@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="85" visitedSequencePoints="43" numBranchPoints="42" visitedBranchPoints="19" sequenceCoverage="50.59" branchCoverage="45.24" maxCyclomaticComplexity="5" minCyclomaticComplexity="0" maxCrapScore="30" minCrapScore="0" visitedClasses="3" numClasses="5" visitedMethods="8" numMethods="16" />
+  <Modules>
+    <Module hash="EC-ED-A4-E4-24-1E-C5-31-2A-06-90-72-59-AD-1F-F4-00-3F-58-B9">
+      <Summary numSequencePoints="85" visitedSequencePoints="43" numBranchPoints="42" visitedBranchPoints="19" sequenceCoverage="50.59" branchCoverage="45.24" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="2" visitedClasses="3" numClasses="5" visitedMethods="8" numMethods="16" />
+      <ModulePath>C:\academia\BandOfBrothers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Dominio.Tests\bin\Debug\BancoTabajara.Dominio.dll</ModulePath>
+      <ModuleTime>2018-07-24T20:46:27.1460285Z</ModuleTime>
+      <ModuleName>BancoTabajara.Dominio</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\academia\BandOfBrothers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Dominio\Funcionalidades\Movimentacoes\Movimentacao.cs" />
+        <File uid="2" fullPath="C:\academia\BandOfBrothers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Dominio\Funcionalidades\Contas\Conta.cs" />
+        <File uid="5" fullPath="C:\academia\BandOfBrothers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Dominio\Funcionalidades\Clientes\Cliente.cs" />
+        <File uid="10" fullPath="C:\academia\BandOfBrothers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Dominio\Excecoes\ExcecaoDeNegocio.cs" />
+        <File uid="12" fullPath="C:\academia\BandOfBrothers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Dominio\Base\Entidade.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Decimal BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao::get_Valor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao::set_Valor(System.Decimal)</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663299</MetadataToken>
+              <Name>BancoTabajara.Dominio.Funcionalidades.Movimentacoes.TipoMovimetacao BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao::get_Tipo()</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao::set_Tipo(BancoTabajara.Dominio.Funcionalidades.Movimentacoes.TipoMovimetacao)</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.DateTime BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao::get_Data()</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao::set_Data(System.DateTime)</Name>
+              <FileRef uid="1" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao::.ctor(BancoTabajara.Dominio.Funcionalidades.Movimentacoes.TipoMovimetacao,System.Decimal)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="65" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2" ordinal="1" offset="7" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="3" ordinal="2" offset="8" sl="18" sc="13" el="18" ec="27" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="4" ordinal="3" offset="16" sl="19" sc="13" el="19" ec="25" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="5" ordinal="4" offset="24" sl="20" sc="13" el="20" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="6" ordinal="5" offset="36" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="65" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="37" visitedSequencePoints="31" numBranchPoints="15" visitedBranchPoints="10" sequenceCoverage="83.78" branchCoverage="66.67" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="5.93" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="7" />
+          <FullName>BancoTabajara.Dominio.Funcionalidades.Contas.Conta</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Double BancoTabajara.Dominio.Funcionalidades.Contas.Conta::get_Numero()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::set_Numero(System.Double)</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Decimal BancoTabajara.Dominio.Funcionalidades.Contas.Conta::get_Saldo()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::set_Saldo(System.Decimal)</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Dominio.Funcionalidades.Contas.Conta::get_Estado()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::set_Estado(System.Boolean)</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Decimal BancoTabajara.Dominio.Funcionalidades.Contas.Conta::get_Limite()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::set_Limite(System.Decimal)</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Decimal BancoTabajara.Dominio.Funcionalidades.Contas.Conta::get_SaldoTotal()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="7" ordinal="0" offset="0" sl="16" sc="45" el="16" ec="59" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="7" ordinal="0" offset="0" sl="16" sc="45" el="16" ec="59" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663313</MetadataToken>
+              <Name>BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente BancoTabajara.Dominio.Funcionalidades.Contas.Conta::get_Titular()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::set_Titular(BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente)</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao&gt; BancoTabajara.Dominio.Funcionalidades.Contas.Conta::get_Movimentacoes()</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::set_Movimentacoes(System.Collections.Generic.List`1&lt;BancoTabajara.Dominio.Funcionalidades.Movimentacoes.Movimentacao&gt;)</Name>
+              <FileRef uid="2" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::.ctor(BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="8" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="9" ordinal="1" offset="7" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="10" ordinal="2" offset="8" sl="22" sc="4" el="22" ec="27" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="11" ordinal="3" offset="16" sl="23" sc="13" el="23" ec="54" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="12" ordinal="4" offset="28" sl="24" sc="4" el="24" ec="23" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="13" ordinal="5" offset="35" sl="25" sc="3" el="25" ec="4" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="8" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="38" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="87.5" branchCoverage="66.67" crapScore="2.01" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="87.5" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.01" minCrapScore="2.01" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Dominio.Funcionalidades.Contas.Conta::Saca(System.Decimal)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="14" ordinal="0" offset="0" sl="29" sc="3" el="29" ec="4" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="15" ordinal="1" offset="1" sl="30" sc="4" el="30" ec="33" bec="2" bev="1" fileid="2" />
+                <SequencePoint vc="0" uspid="16" ordinal="2" offset="28" sl="31" sc="5" el="31" ec="18" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="17" ordinal="3" offset="32" sl="33" sc="4" el="33" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="18" ordinal="4" offset="33" sl="34" sc="5" el="34" ec="41" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="19" ordinal="5" offset="46" sl="35" sc="5" el="35" ec="28" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="20" ordinal="6" offset="54" sl="36" sc="5" el="36" ec="17" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="21" ordinal="7" offset="58" sl="38" sc="3" el="38" ec="4" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="22" ordinal="0" offset="26" sl="30" path="0" offsetend="28" fileid="2" />
+                <BranchPoint vc="2" uspid="23" ordinal="1" offset="26" sl="30" path="1" offsetend="32" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="14" ordinal="0" offset="0" sl="29" sc="3" el="29" ec="4" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="77.78" branchCoverage="66.67" crapScore="2.04" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="77.78" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.04" minCrapScore="2.04" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Dominio.Funcionalidades.Contas.Conta::Transfere(BancoTabajara.Dominio.Funcionalidades.Contas.Conta,System.Decimal)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="24" ordinal="0" offset="0" sl="41" sc="3" el="41" ec="4" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="25" ordinal="1" offset="1" sl="42" sc="4" el="42" ec="45" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="26" ordinal="2" offset="9" sl="44" sc="4" el="44" ec="22" bec="2" bev="1" fileid="2" />
+                <SequencePoint vc="1" uspid="27" ordinal="3" offset="14" sl="45" sc="4" el="45" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="28" ordinal="4" offset="15" sl="46" sc="5" el="46" ec="37" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="29" ordinal="5" offset="23" sl="47" sc="5" el="47" ec="17" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="30" ordinal="6" offset="27" sl="49" sc="4" el="49" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="31" ordinal="7" offset="28" sl="50" sc="5" el="50" ec="18" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="32" ordinal="8" offset="32" sl="52" sc="3" el="52" ec="4" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="33" ordinal="0" offset="12" sl="44" path="0" offsetend="14" fileid="2" />
+                <BranchPoint vc="0" uspid="34" ordinal="1" offset="12" sl="44" path="1" offsetend="27" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="24" ordinal="0" offset="0" sl="41" sc="3" el="41" ec="4" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::Deposita(System.Decimal)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="35" ordinal="0" offset="0" sl="55" sc="3" el="55" ec="4" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="36" ordinal="1" offset="1" sl="56" sc="4" el="56" ec="26" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="37" ordinal="2" offset="20" sl="57" sc="3" el="57" ec="4" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="35" ordinal="0" offset="0" sl="55" sc="3" el="55" ec="4" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::GerarNumeroConta()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="38" ordinal="0" offset="0" sl="60" sc="3" el="60" ec="4" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="39" ordinal="1" offset="1" sl="61" sc="4" el="61" ec="33" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="40" ordinal="2" offset="7" sl="62" sc="4" el="62" ec="49" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="41" ordinal="3" offset="28" sl="63" sc="3" el="63" ec="4" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="38" ordinal="0" offset="0" sl="60" sc="3" el="60" ec="4" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="4" sequenceCoverage="66.67" branchCoverage="60" crapScore="5.93" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="4" numBranchPoints="5" visitedBranchPoints="3" sequenceCoverage="66.67" branchCoverage="60" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="5.93" minCrapScore="5.93" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Contas.Conta::Validar()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="42" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="43" ordinal="1" offset="1" sl="68" sc="4" el="68" ec="51" bec="2" bev="1" fileid="2" />
+                <SequencePoint vc="0" uspid="44" ordinal="2" offset="44" sl="69" sc="5" el="69" ec="42" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="45" ordinal="3" offset="50" sl="70" sc="4" el="70" ec="53" bec="2" bev="1" fileid="2" />
+                <SequencePoint vc="0" uspid="46" ordinal="4" offset="93" sl="71" sc="5" el="71" ec="43" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="47" ordinal="5" offset="99" sl="72" sc="3" el="72" ec="4" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="50" ordinal="2" offset="42" sl="68" path="0" offsetend="44" fileid="2" />
+                <BranchPoint vc="3" uspid="51" ordinal="3" offset="42" sl="68" path="1" offsetend="50" fileid="2" />
+                <BranchPoint vc="0" uspid="54" ordinal="6" offset="91" sl="70" path="0" offsetend="93" fileid="2" />
+                <BranchPoint vc="3" uspid="55" ordinal="7" offset="91" sl="70" path="1" offsetend="99" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="42" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="9" numBranchPoints="9" visitedBranchPoints="8" sequenceCoverage="90" branchCoverage="88.89" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="5.02" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.String BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::get_Nome()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::set_Nome(System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.String BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::get_Cpf()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::set_Cpf(System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.String BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::get_Rg()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::set_Rg(System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.DateTime BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::get_DataNascimento()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::set_DataNascimento(System.DateTime)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="16" sequenceCoverage="90" branchCoverage="88.89" crapScore="5.02" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="9" numBranchPoints="9" visitedBranchPoints="8" sequenceCoverage="90" branchCoverage="88.89" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="5.02" minCrapScore="5.02" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::Validar()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="56" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="4" uspid="57" ordinal="1" offset="1" sl="20" sc="13" el="20" ec="44" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="58" ordinal="2" offset="16" sl="21" sc="17" el="21" ec="58" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="59" ordinal="3" offset="22" sl="22" sc="13" el="22" ec="43" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="60" ordinal="4" offset="37" sl="23" sc="17" el="23" ec="57" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="2" uspid="61" ordinal="5" offset="43" sl="24" sc="13" el="24" ec="42" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="62" ordinal="6" offset="58" sl="25" sc="17" el="25" ec="56" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="63" ordinal="7" offset="64" sl="26" sc="13" el="26" ec="47" bec="2" bev="1" fileid="5" />
+                <SequencePoint vc="0" uspid="64" ordinal="8" offset="84" sl="27" sc="17" el="27" ec="73" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="65" ordinal="9" offset="90" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="66" ordinal="0" offset="14" sl="20" path="0" offsetend="16" fileid="5" />
+                <BranchPoint vc="3" uspid="67" ordinal="1" offset="14" sl="20" path="1" offsetend="22" fileid="5" />
+                <BranchPoint vc="1" uspid="68" ordinal="2" offset="35" sl="22" path="0" offsetend="37" fileid="5" />
+                <BranchPoint vc="2" uspid="69" ordinal="3" offset="35" sl="22" path="1" offsetend="43" fileid="5" />
+                <BranchPoint vc="1" uspid="70" ordinal="4" offset="56" sl="24" path="0" offsetend="58" fileid="5" />
+                <BranchPoint vc="1" uspid="71" ordinal="5" offset="56" sl="24" path="1" offsetend="64" fileid="5" />
+                <BranchPoint vc="0" uspid="72" ordinal="6" offset="82" sl="26" path="0" offsetend="84" fileid="5" />
+                <BranchPoint vc="1" uspid="73" ordinal="7" offset="82" sl="26" path="1" offsetend="90" fileid="5" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="56" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Funcionalidades.Clientes.Cliente::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="74" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="42.86" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>BancoTabajara.Dominio.Excecoes.ExcecaoDeNegocio</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663344</MetadataToken>
+              <Name>BancoTabajara.Dominio.Excecoes.CodigoErros BancoTabajara.Dominio.Excecoes.ExcecaoDeNegocio::get_CodigoErro()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663345</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Excecoes.ExcecaoDeNegocio::.ctor(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="75" ordinal="0" offset="0" sl="12" sc="51" el="12" ec="64" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="76" ordinal="1" offset="8" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="77" ordinal="2" offset="9" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="75" ordinal="0" offset="0" sl="12" sc="51" el="12" ec="64" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663346</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Excecoes.ExcecaoDeNegocio::.ctor(BancoTabajara.Dominio.Excecoes.CodigoErros,System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="78" ordinal="0" offset="0" sl="16" sc="71" el="16" ec="84" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="79" ordinal="1" offset="8" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="80" ordinal="2" offset="9" sl="18" sc="13" el="18" ec="33" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="81" ordinal="3" offset="16" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="78" ordinal="0" offset="0" sl="16" sc="71" el="16" ec="84" bec="0" bev="0" fileid="10" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="25" visitedSequencePoints="0" numBranchPoints="15" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="5" />
+          <FullName>BancoTabajara.Dominio.Base.Entidade</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663348</MetadataToken>
+              <Name>System.Int32 BancoTabajara.Dominio.Base.Entidade::get_Id()</Name>
+              <FileRef uid="12" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663349</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Base.Entidade::set_Id(System.Int32)</Name>
+              <FileRef uid="12" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="5" nPathComplexity="8" sequenceCoverage="0" branchCoverage="0" crapScore="30" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="7" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="30" minCrapScore="30" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663350</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Dominio.Base.Entidade::Equals(System.Object)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="82" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="83" ordinal="1" offset="1" sl="15" sc="13" el="15" ec="41" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="84" ordinal="2" offset="8" sl="17" sc="13" el="17" ec="46" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="85" ordinal="3" offset="16" sl="18" sc="17" el="18" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="86" ordinal="4" offset="20" sl="20" sc="13" el="20" ec="46" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="87" ordinal="5" offset="28" sl="21" sc="17" el="21" ec="29" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="88" ordinal="6" offset="32" sl="23" sc="13" el="23" ec="42" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="89" ordinal="7" offset="58" sl="24" sc="17" el="24" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="90" ordinal="8" offset="62" sl="26" sc="13" el="26" ec="35" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="91" ordinal="9" offset="79" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="92" ordinal="0" offset="14" sl="17" path="0" offsetend="16" fileid="12" />
+                <BranchPoint vc="0" uspid="93" ordinal="1" offset="14" sl="17" path="1" offsetend="20" fileid="12" />
+                <BranchPoint vc="0" uspid="94" ordinal="2" offset="26" sl="20" path="0" offsetend="28" fileid="12" />
+                <BranchPoint vc="0" uspid="95" ordinal="3" offset="26" sl="20" path="1" offsetend="32" fileid="12" />
+                <BranchPoint vc="0" uspid="98" ordinal="6" offset="56" sl="23" path="0" offsetend="58" fileid="12" />
+                <BranchPoint vc="0" uspid="99" ordinal="7" offset="56" sl="23" path="1" offsetend="62" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="82" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="5" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" crapScore="30" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="30" minCrapScore="30" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663351</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Dominio.Base.Entidade::op_Equality(BancoTabajara.Dominio.Base.Entidade,BancoTabajara.Dominio.Base.Entidade)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="100" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="101" ordinal="1" offset="1" sl="31" sc="13" el="31" ec="70" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="102" ordinal="2" offset="15" sl="32" sc="17" el="32" ec="29" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="103" ordinal="3" offset="19" sl="34" sc="13" el="34" ec="70" bec="2" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="104" ordinal="4" offset="33" sl="35" sc="17" el="35" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="105" ordinal="5" offset="37" sl="37" sc="13" el="37" ec="32" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="106" ordinal="6" offset="47" sl="38" sc="9" el="38" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="109" ordinal="2" offset="13" sl="31" path="0" offsetend="15" fileid="12" />
+                <BranchPoint vc="0" uspid="110" ordinal="3" offset="13" sl="31" path="1" offsetend="19" fileid="12" />
+                <BranchPoint vc="0" uspid="113" ordinal="6" offset="31" sl="34" path="0" offsetend="33" fileid="12" />
+                <BranchPoint vc="0" uspid="114" ordinal="7" offset="31" sl="34" path="1" offsetend="37" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="100" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663352</MetadataToken>
+              <Name>System.Boolean BancoTabajara.Dominio.Base.Entidade::op_Inequality(BancoTabajara.Dominio.Base.Entidade,BancoTabajara.Dominio.Base.Entidade)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="115" ordinal="0" offset="0" sl="41" sc="9" el="41" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="116" ordinal="1" offset="1" sl="42" sc="13" el="42" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="117" ordinal="2" offset="14" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="115" ordinal="0" offset="0" sl="41" sc="9" el="41" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663353</MetadataToken>
+              <Name>System.Int32 BancoTabajara.Dominio.Base.Entidade::GetHashCode()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="118" ordinal="0" offset="0" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="119" ordinal="1" offset="1" sl="47" sc="13" el="47" ec="37" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="120" ordinal="2" offset="18" sl="48" sc="9" el="48" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="118" ordinal="0" offset="0" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663354</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Base.Entidade::Validar()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="121" ordinal="0" offset="0" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="122" ordinal="1" offset="1" sl="53" sc="9" el="53" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="121" ordinal="0" offset="0" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663355</MetadataToken>
+              <Name>System.Void BancoTabajara.Dominio.Base.Entidade::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="123" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="87-BB-A7-E9-62-B4-E1-8E-A8-7A-9D-16-9A-67-65-F4-A4-94-9B-79">
+      <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+      <ModulePath>C:\academia\BandOfBrothers\ws-banco-tabajara\BancoTabajara\BancoTabajara.Dominio.Tests\bin\Debug\BancoTabajara.Infra.dll</ModulePath>
+      <ModuleTime>2018-07-24T20:36:41.9323726Z</ModuleTime>
+      <ModuleName>BancoTabajara.Infra</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

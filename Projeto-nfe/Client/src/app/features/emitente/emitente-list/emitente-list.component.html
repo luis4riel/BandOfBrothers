@@ -1,0 +1,36 @@
+<kendo-grid [style.height]="'100%'" 
+            [data]="view | async" 
+            [loading]="view.loading" 
+            [pageSize]="state.take" 
+            [selectable]="selectableSettings"
+            [skip]="state.skip" 
+            [sort]="state.sort" 
+            [sortable]="true" 
+            [pageable]="pageableSettings" 
+            [scrollable]="'none'"
+            (dataStateChange)="dataStateChange($event)"
+            (selectionChange)="onSelectionChange($event)">
+
+  <ng-template kendoGridToolbarTemplate position="top">
+    <div class="pkg-manager-grid__action-container">
+      <button (click)="addEmitente()" class="pkg-manager-grid__action">
+        <i class="ndd-font ndd-font-create pkg-manager-grid__action__icon"></i>
+        <span class="pkg-manager-grid__action__description">Novo Emitente</span>
+      </button>
+      <button (click)="deleteEmitente()" class="pkg-manager-grid__action" [disabled]="!selectedRows.length">
+        <i class="ndd-font ndd-font-delete pkg-manager-grid__action__icon"></i>
+        <span class="pkg-manager-grid__action__description">Remover</span>
+      </button>
+      <button (click)="redirectOpenEmitente()" class="pkg-manager-grid__action" [disabled]="selectedRows.length != 1">
+        <i class="ndd-font ndd-font-open pkg-manager-grid__action__icon"></i>
+        <span class="pkg-manager-grid__action__description">Abrir Emitente</span>
+      </button>
+    </div>
+  </ng-template>
+
+  <kendo-grid-checkbox-column width="40"></kendo-grid-checkbox-column>
+  <kendo-grid-column field="id" title="ID" width="75"></kendo-grid-column>
+  <kendo-grid-column field="nome" title="Nome" width="200"></kendo-grid-column>
+  <kendo-grid-column field="razaoSocial" format="{0:c}" title="Razão Social" width="100"></kendo-grid-column>
+  <kendo-grid-column field="inscricaoEstadual" format="{0:c}" title="InscricaoEstadual" width="100"></kendo-grid-column>
+</kendo-grid>

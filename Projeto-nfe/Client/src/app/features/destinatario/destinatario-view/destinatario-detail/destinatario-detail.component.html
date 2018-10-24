@@ -1,0 +1,71 @@
+<div class="feature-view-tab__content">
+    <div class="row">
+        <!-- #region Coluna 1 -->
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span class="feature-view__title">Informações do destinatário</span>
+                </div>
+            </div>
+            <div class="row feature-view__group">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-6 feature-view__body">
+                            <div>
+                                <span class="feature-view__label">Destinatário</span>
+                            </div>
+                            <div class="truncate">
+                                <span title="{{ destinatario?.nome }}" class="feature-view__value"> {{ destinatario?.nome }}</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div>
+                                <span class="feature-view__label">Inscrição Estadual</span>
+                            </div>
+                            <div class="truncate">
+                                <span title="{{ destinatario?.inscricaoEstadual }}" class="feature-view__value"> {{ destinatario?.inscricaoEstadual }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion -->
+        <!-- #region Coluna 2 -->
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span class="feature-view__title">Endereço</span>
+                </div>
+            </div>
+            <div class="row feature-view__group">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-6 feature-view__body">
+                            <div>
+                                <span class="feature-view__label">Logradouro</span>
+                            </div>
+                            <div class="truncate">
+                                <span title="{{ estinatario?.logradouro }}" class="feature-view__value"> {{ destinatario?.logradouro }}</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 feature-view__body">
+                            <div>
+                                <span class="feature-view__label">Bairro</span>
+                            </div>
+                            <div class="truncate">
+                                <span title="{{ destinatario?.bairro }}" class="feature-view__value"> {{ destinatario?.bairro }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--#endregion-->
+        </div>
+    </div>
+    <div class="feature-view-tab__footer">
+        <button class="ndd-ng-button ndd-ng-button--primary" (click)="onEdit()">Editar</button>
+        <button class="ndd-ng-button ndd-ng-button--cancel" (click)="redirect()">Fechar</button>
+    </div>
+    <div class="ndd-ng-spinner__spinner" *ngIf="isLoading"></div>
+    <div class="ndd-ng-spinner__color" *ngIf="isLoading"></div>

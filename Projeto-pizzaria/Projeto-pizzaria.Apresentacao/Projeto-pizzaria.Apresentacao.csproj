@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E714FBC-9542-4584-B239-FC2F4094F00B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projeto_pizzaria.Apresentacao</RootNamespace>
+    <AssemblyName>Projeto-pizzaria.Apresentacao</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MosaicoSolutions.ViaCep, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MosaicoSolutions.ViaCep.4.0.0\lib\net45\MosaicoSolutions.ViaCep.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\Clientes\ClienteControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Features\Clientes\ClienteControl.Designer.cs">
+      <DependentUpon>ClienteControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Clientes\FormCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\Clientes\FormCadastroCliente.Designer.cs">
+      <DependentUpon>FormCadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Clientes\GerenciadorFormularioCliente.cs" />
+    <Compile Include="Features\ItensPedido\ItensPedidoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Features\ItensPedido\ItensPedidoControl.Designer.cs">
+      <DependentUpon>ItensPedidoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Pedidos\FormAtualizarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\Pedidos\FormAtualizarPedido.Designer.cs">
+      <DependentUpon>FormAtualizarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Pedidos\FormCadastroPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\Pedidos\FormCadastroPedido.Designer.cs">
+      <DependentUpon>FormCadastroPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Pedidos\GerenciadorFormularioPedido.cs" />
+    <Compile Include="Features\Pedidos\PedidoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Features\Pedidos\PedidoControl.Designer.cs">
+      <DependentUpon>PedidoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Produtos\FormCadastroProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\Produtos\FormCadastroProduto.Designer.cs">
+      <DependentUpon>FormCadastroProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Produtos\GerenciadorFormularioProduto.cs" />
+    <Compile Include="Features\Produtos\ProdutoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Features\Produtos\ProdutoControl.designer.cs">
+      <DependentUpon>ProdutoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GerenciadorFormulario.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Features\Clientes\ClienteControl.resx">
+      <DependentUpon>ClienteControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Clientes\FormCadastroCliente.resx">
+      <DependentUpon>FormCadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\ItensPedido\ItensPedidoControl.resx">
+      <DependentUpon>ItensPedidoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Pedidos\FormAtualizarPedido.resx">
+      <DependentUpon>FormAtualizarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Pedidos\FormCadastroPedido.resx">
+      <DependentUpon>FormCadastroPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Pedidos\PedidoControl.resx">
+      <DependentUpon>PedidoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Produtos\FormCadastroProduto.resx">
+      <DependentUpon>FormCadastroProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Produtos\ProdutoControl.resx">
+      <DependentUpon>ProdutoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Projeto-pizzaria.Dominio\Projeto-pizzaria.Dominio.csproj">
+      <Project>{E33AFE41-280E-45DE-A6EC-1CC668DF7C8B}</Project>
+      <Name>Projeto-pizzaria.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Projeto-pizzaria.Infra.Data\Projeto-pizzaria.Infra.Data.csproj">
+      <Project>{8FC1B3CB-8352-4573-9A92-0C4AEAD23B50}</Project>
+      <Name>Projeto-pizzaria.Infra.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Projeto-pizzaria.Infra\Projeto-pizzaria.Infra.csproj">
+      <Project>{6C5B9C4F-CC05-4D01-BC99-274E8E6A947B}</Project>
+      <Name>Projeto-pizzaria.Infra</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\projeto-pizzaria.Servico\Projeto-pizzaria.Aplicacao.csproj">
+      <Project>{143702EC-4F28-4D17-BD0F-670968C42846}</Project>
+      <Name>Projeto-pizzaria.Aplicacao</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
